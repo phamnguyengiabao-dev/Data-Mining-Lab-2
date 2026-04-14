@@ -183,6 +183,7 @@ class TestBenchmarkDatasets:
         "chess.txt": {"minsups": [0.9, 0.85, 0.8, 0.75, 0.7]},
         "mushroom.txt": {"minsups": [0.5, 0.4, 0.3, 0.25, 0.2]},
         "retail.txt": {"minsups": [0.05, 0.02, 0.01, 0.005, 0.001]},
+        "T10I4D100K.txt": {"minsups": [0.05, 0.02, 0.01, 0.005]},
     }
 
     @pytest.mark.parametrize("dataset", list(BENCHMARKS.keys()))

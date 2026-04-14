@@ -185,6 +185,9 @@ pytest tests/test_correctness.py -v
 
 # Chạy riêng test benchmark
 pytest tests/test_benchmark.py -v
+
+# Chỉ chạy benchmark trên 4 dataset đã chuẩn bị
+pytest tests/test_benchmark.py -v -s
 ```
 
 ---
@@ -194,12 +197,21 @@ pytest tests/test_benchmark.py -v
 | Tập dữ liệu   | #Trans.  | #Items | AvgLen | Đặc điểm              |
 |----------------|----------|--------|--------|------------------------|
 | Chess          | 3,196    | 75     | 37.0   | Dày đặc (dense)        |
-| Mushroom       | 8,124    | 119    | 23.0   | Dày đặc, nhiều item    |
+| Mushroom       | 8,416    | 119    | 23.0   | Dày đặc, nhiều item    |
 | Retail         | 88,162   | 16,470 | 10.3   | Thưa (sparse), thực tế |
 | Accidents      | 340,183  | 468    | 33.8   | Rất lớn, dày đặc       |
 | T10I4D100K     | 100,000  | 870    | 10.1   | Tổng hợp, thưa         |
 
-Tải về từ: [SPMF Datasets](http://www.philippe-fournier-viger.com/spmf/index.php?link=datasets.php) hoặc [FIMI Repository](http://fimi.uantwerpen.be/data/).
+Hiện repo đã kèm sẵn 4 benchmark để thực hiện mục này:
+`chess.txt`, `mushroom.txt`, `retail.txt`, `T10I4D100K.txt` trong [data/benchmark/README.md](/D:/Coding/Data mining/lab2 repo/Data-Mining-Lab-2/data/benchmark/README.md).
+
+Nếu cần tải lại hoặc bổ sung `accidents.txt`, chạy:
+
+```bash
+python download_benchmarks.py
+```
+
+Nguồn dữ liệu: [SPMF Datasets](https://www.philippe-fournier-viger.com/spmf/index.php?link=datasets.php) hoặc [FIMI Repository](http://fimi.uantwerpen.be/data/).
 
 ---
 
