@@ -195,9 +195,9 @@ class TestBenchmarkDatasets:
         transactions = load_transactions_spmf(filepath)
         minsups = self.BENCHMARKS[dataset]["minsups"]
 
-    print("")
+        print("")
         print(f"  BENCHMARK: {dataset} ({len(transactions)} giao dịch)")
-    print("")
+        print("")
 
         times = []
         counts = []
