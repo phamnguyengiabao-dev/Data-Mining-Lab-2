@@ -9,16 +9,29 @@
 ---
 
 ## Mục lục
-
-1. [Chương 1. Nền tảng lý thuyết](#chương-1-nền-tảng-lý-thuyết)
-2. [Chương 2. Ví dụ minh họa tay](#chương-2-ví-dụ-minh-họa-tay)
-3. [Chương 3. Cài đặt](#chương-3-cài-đặt)
-4. [Chương 4. Thực nghiệm và đánh giá](#chương-4-thực-nghiệm-và-đánh-giá)
-5. [Chương 5. Ứng dụng thực tế](#chương-5-ứng-dụng-thực-tế)
+1. [Chương 2. Nền tảng lý thuyết](#chương-1-nền-tảng-lý-thuyết)
+2. [Chương 3. Ví dụ minh họa tay](#chương-2-ví-dụ-minh-họa-tay)
+3. [Chương 4. Cài đặt](#chương-3-cài-đặt)
+4. [Chương 5. Thực nghiệm và đánh giá](#chương-4-thực-nghiệm-và-đánh-giá)
+5. [Chương 6. Ứng dụng thực tế](#chương-5-ứng-dụng-thực-tế)
 6. [Kết luận](#kết-luận)
 7. [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
 ---
+## Giới thiệu thành viên
+20127157 - Lê Nguyễn Chí Hiếu
+
+20127119 - Phạm Nguyễn Gia Bảo
+
+21127498 - Trần Quang Đạo
+
+## Phân công công việc
+
+**Phạm Nguyễn Gia Bảo** - Phụ trách Chương 2: Cài đặt và Tối ưu hóa
+
+**Trần Quang Đạo** – Phụ trách Chương 3: Dữ liệu thực nghiệm và EDA
+
+**Lê Nguyễn Chí Hiếu** – Phụ trách Chương 4: Thực nghiệm & Đánh giá (Kiêm Tích hợp)
 
 ## Chương 1. Nền tảng lý thuyết
 
